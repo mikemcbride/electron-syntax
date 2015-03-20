@@ -1,0 +1,11 @@
+{
+  "name": "electron-syntax",
+  "theme": "syntax",
+  "version": "0.1.0",
+  "description": "A syntax theme using colors from the base16 ocean color palette",
+  "repository": "https://github.com/mmcbride1007/electron-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  }
+}
