@@ -1,19 +1,26 @@
-// These colors are specific to the theme. Do not use in a package!
+// Config -----------------------------------
+@syntax-hue:          221;
+@syntax-saturation:   16%;
+@syntax-brightness:   20%;
 
-@accent-color: #528BFF;
+// Base colors -----------------------------------
+@syntax-base-accent-color:      hsl(221, 100%, 66%);
+@syntax-base-background-color:  hsl(@syntax-hue, @syntax-saturation, @syntax-brightness);
+@syntax-base-text-color:        @light-gray;
+@syntax-base-guide-color:       fade(@syntax-base-text-color, 15%);
 
-@very-light-gray: #c0c5ce;
-@light-gray:      #65737E;
-@gray:            #4F5B66;
-@dark-gray:       #343D46;
+// Colors ------------------------------------
+
+@very-light-gray: #C0C5CE;
+@light-gray:      #A7ADBA;
+@gray:            #65737E;
+@dark-gray:       #4F5B66;
 @very-dark-gray:  #2b303b;
 
-@cyan: #96b5b4;
-@blue: #8fa1b3;
-@purple: #b48ead;
-@green: #a3be8c;
-@red: #bf616a;
-@dark-red: darken(@red, 10%);
-@orange: #d08770;
-@light-orange: lighten(@orange, 5%);
-@yellow: #ebcb8b;
+@cyan:            #96b5b4;
+@blue:            #8fa1b3;
+@purple:          #b48ead;
+@green:           #a3be8c;
+@red:             #bf616a;
+@yellow:          #ebcb8b;
+@orange:          #d08770;
