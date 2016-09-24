@@ -3,7 +3,7 @@
 
 // Custom Syntax Variables -----------------------------------
 
-@syntax-cursor-line: hsla(@syntax-hue, 100%,  80%, .04); // needs to be semi-transparent to show serach results
+@syntax-cursor-line: hsla(@syntax-hue, 100%,  80%, .04); // needs to be semi-transparent to show search results
 @syntax-bracket-matcher-background-color: lighten(@syntax-background-color, 6%);
 
 // General colors
@@ -19,7 +19,7 @@
 @syntax-invisible-character-color: @syntax-base-guide-color;
 
 // For find and replace markers
-@syntax-result-marker-color: @syntax-text-color;
+@syntax-result-marker-color: fade(@syntax-base-accent-color, 24%);
 @syntax-result-marker-color-selected: @syntax-base-accent-color;
 
 // Gutter colors

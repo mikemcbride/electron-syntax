@@ -1,3 +1,6 @@
+## 1.2.0
+* Improves find and replace markers
+
 ## 1.1.0
 * Adds syntax highlighting for LESS mixins. Your mixins will now be blue instead of orange so they stand out :+1:
 
