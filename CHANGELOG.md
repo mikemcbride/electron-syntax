@@ -1,3 +1,6 @@
+## 1.3.0
+* removes Shadow DOM selectors
+
 ## 1.2.0
 * Improves find and replace markers
 
